@@ -1,2 +1,2 @@
 # smolGPT
-GPT From Scratch
+GPT From Scratch (In progress..)
