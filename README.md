@@ -1,0 +1,2 @@
+# smolGPT
+GPT From Scratch
