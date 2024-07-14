@@ -5,7 +5,7 @@ class Generate:
     super().__init__()
 
   def greedy_decode(self, model, idx, max_new_tokens, block_size):
-
+ 
     for _ in range(max_new_tokens):
       idx_cond = idx[:, -block_size:]
 
