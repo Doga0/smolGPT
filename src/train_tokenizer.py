@@ -19,7 +19,7 @@ with open(file, "r") as f:
 spm.SentencePieceTrainer.train(
     input=file,
     model_prefix="tokenizer_32k",
-    vocab_size=20000,
+    vocab_size=32000,
     hard_vocab_limit=False
 )
 
